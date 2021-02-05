@@ -1,0 +1,22 @@
+.idea/
+.git
+
+# dot env
+.env
+
+# virtualenv
+.venv
+venv/
+
+# distribution / packaging
+.Python
+ENV/
+env/
+build/
+
+# exclude large data files
+data_prep/prep_household_data_1min_singleindex.csv
+data_prep/prep_household_data_15min_singleindex.csv
+data_raw/household_data_1min_singleindex.csv
+data_raw/household_data_15min_singleindex.csv
+
